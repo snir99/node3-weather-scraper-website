@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather Scraper</title>
+        <link rel="icon" href="/img/weather.png">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+          <div class="header">
+            <div class="icon-container">
+              <img src="" id="img-data">
+            </div>
+          </div>
+          <div class="content">
+            <div class="general-information">
+              <div class="status" id="data-status">Enter A Location</div>
+              <div class="location" id="data-location">To Find The Weather</div>
+            </div>
+            <div class="detail-section">
+              <div class="detail">
+                <div class="title">Wind</div>
+                <div class="value" id="data-wind">TBD</div>
+              </div>
+              <div class="detail bordered">
+                  <div class="title">Temperature</div>
+                <div class="value" id="data-temperature">TBD</div>
+              </div>
+              <div class="detail">
+                <div class="title">Humidity</div>
+                <div class="value" id="data-humidity">TBD</div>
+              </div>
+            </div>
+            <div class="city-search-container">
+              <form>
+                <input type="text" class="city-search" data-city-search placeholder="Enter Location">
+                <button class="search-button">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <script src="/js/app.js"></script>
+    </body>
+</html>
